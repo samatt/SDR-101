@@ -50,9 +50,8 @@ For Art Hack Day Jonathan Dahan and I set up a small television broadcast statio
 
 Code from that project is available [here](https://github.com/samatt/WAHD-TV.git)
 
-![WAHD-TV](FullSizeRender.jpg =250x) 
 
-
+![](https://dl.dropboxusercontent.com/u/1108171/FullSizeRender.jpg) 
 
 ##GSM With SDRs
 
