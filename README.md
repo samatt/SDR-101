@@ -42,9 +42,20 @@ The RTL-SDR is by far the cheapest board out there
 
 
 
+
+
+##Art Hack Day TV
+
+For Art Hack Day Jonathan Dahan and I set up a small television broadcast station. We used the Hack RF and modified code we found online to broadcast a slide show of images from the Hack RF to UHF Channel 9
+
+Code from that project is available [here](https://github.com/samatt/WAHD-TV.git)
+
+![WAHD-TV](https://dl.dropboxusercontent.com/u/1108171/FullSizeRender.jpg =250x "WAHD-TV") 
+
+
 ##GSM With SDRs
 
-Disclaimer: GSM is a licensed band and if you transmit and if you are caught transmitting at those frequencies the FCC will give you trouble. 
+Disclaimer: GSM is a licensed band and if you transmit and are caught transmitting the FCC will give you trouble. 
 
 Having said that there are a lot of projects out there that allow you to use SDRs  to create a standalone GSM network.
 
@@ -64,3 +75,6 @@ I also wrote a couple of tutorials on setting up gsm networks using Yates and Os
 I have **live images** for these if anyone is wants them let me know.	
 
 ##Resources
+
+[SDR Tutorials](https://greatscottgadgets.com/sdr/) by Michael Ossmann 
+[SDR Book](http://people.scs.carleton.ca/~barbeau/SDRBook/Book/) for theoretical fundamentals
