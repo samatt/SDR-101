@@ -25,20 +25,19 @@ Chips known as [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_arra
 
 
 ###What are the different boards out there?
- Specs         |RTL SDR        		   | Hack RF      		| Blade RF     			    |USRP (B100) 		  |
-:-----------   |:-----------   		   | :----------- 		| :----------- 			    | :-----------		|
-Price          | 20$                 | 320$		  		    | 420$		 			        |~ 600$		 		    |
-Open Source    |                     | Everything		    | HDL + Code Schematics	| Host code		  	|
-Radio Spectrum | ~ 50Mhz - 1.5 Ghz   | 30 MHz – 6 Ghz 	| 300 MHz – 3.8 GHz 	  | 50 MHz –2.2 GHz |
-Bandwidth      | 2.8 Mhz(max stable) | 20 MHZ		  	    | 28 MHZ 		 		        | 16 MHz 			    |
-Duplex         | Half (Rx only)      | Half		  		    | Full	 		 		        | Full				    |
-Sample Size    | 8 - bit             | 8-bit		  		  | 12-bit 		 		        | 12/14 12-bit 		|
-Sample Rate    | 2.4 MS/s            | 20Ms/s		  	    | 40 Msps 		 		      | 64/128 Msps		  |
-Interface      | USB 2.0             | USB 2.0		  	  | USB 3.0 		 		      | USB 2.0 			  |
-Good For       | FM, NOAA Satellites | GSM, A/NTSC      |                       | GSM             |
+ Specs         |RTL SDR        		| Hack RF      		| Blade RF     			|USRP (B100) 		|    
+:-----------   |:-----------   		| :----------- 		| :----------- 			| :-----------		|
+Price		   | 20$        		| 320$		  		| 420$		 			|~ 600$		 		|
+Open Source	   | 	        		| Everything		|HDL + Code Schematics	| Host code		  	|
+Radio Spectrum | ~ 50Mhz - 1.5 Ghz 	| 30 MHz – 6 Ghz 	| 300 MHz – 3.8 GHz 	| 50 MHz –2.2 GHz 	|
+Bandwidth      | 2.8 Mhz(max stable)| 20 MHZ		  	| 28 MHZ 		 		| 16 MHz 			|
+Duplex	       | Half (Rx only)     | Half		  		| Full	 		 		| Full				|
+Sample Size	   | 8 - bit        	| 8-bit		  		| 12-bit 		 		| 12/14 12-bit 		|
+Sample Rate	   | 2.4 MS/s        	| 20Ms/s		  	| 40 Msps 		 		| 64/128 Msps		|
+Interface	   | USB 2.0        	| USB 2.0		  	| USB 3.0 		 		| USB 2.0 			|
+Good For       | FM, NOAA Satellites | GSM, A/NTSC      | GSM,ATSC,NTSC,        | GSM             	|
 
-
-The RTL-SDR is by far the cheapest board out there.
+The RTL-SDR is by far the cheapest board out there 
 
 
 
@@ -79,4 +78,15 @@ I have **live images** for these if anyone is wants them let me know.
 ##Resources
 
 [SDR Tutorials](https://greatscottgadgets.com/sdr/) by Michael Ossmann 
+
 [SDR Book](http://people.scs.carleton.ca/~barbeau/SDRBook/Book/) for theoretical fundamentals
+
+
+##References
+[Receiving HRPT Weather Satellite](http://www.rtl-sdr.com/hackrf-receiving-hrpt-weather-satellite-images/)
+
+[High Altitude Balloons HAB ](http://www.rtl-sdr.com/hackrf-decoding-pico-high-altitude-balloons-hab/)
+
+Jiao Xianjuns amazing [Git Hub repo](https://github.com/JiaoXianjun/)
+
+Watch TV using the [RTL2832U dongle](https://github.com/kik/sdr-tv/wiki/RTL2832U%E3%83%89%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%83%86%E3%83%AC%E3%83%93%E3%82%92%E8%A6%8B%E3%82%8B%EF%BC%81)
