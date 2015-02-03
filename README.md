@@ -25,19 +25,20 @@ Chips known as [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_arra
 
 
 ###What are the different boards out there?
- Specs         |RTL SDR        		| Hack RF      		| Blade RF     			|USRP (B100) 		|    
-:-----------   |:-----------   		| :----------- 		| :----------- 			| :-----------		|
-Price		   | 20$        		| 320$		  		| 420$		 			|~ 600$		 		|
-Open Source	   | 	        		| Everything		|HDL + Code Schematics	| Host code		  	|
-Radio Spectrum | ~ 50Mhz - 1.5 Ghz 	| 30 MHz – 6 Ghz 	| 300 MHz – 3.8 GHz 	| 50 MHz –2.2 GHz 	|
-Bandwidth      | 2.8 Mhz(max stable)| 20 MHZ		  	| 28 MHZ 		 		| 16 MHz 			|
-Duplex	       | Half (Rx only)     | Half		  		| Full	 		 		| Full				|
-Sample Size	   | 8 - bit        	| 8-bit		  		| 12-bit 		 		| 12/14 12-bit 		|
-Sample Rate	   | 2.4 MS/s        	| 20Ms/s		  	| 40 Msps 		 		| 64/128 Msps		|
-Interface	   | USB 2.0        	| USB 2.0		  	| USB 3.0 		 		| USB 2.0 			|
+ Specs         |RTL SDR        		   | Hack RF      		| Blade RF     			    |USRP (B100) 		  |
+:-----------   |:-----------   		   | :----------- 		| :----------- 			    | :-----------		|
+Price          | 20$                 | 320$		  		    | 420$		 			        |~ 600$		 		    |
+Open Source    |                     | Everything		    | HDL + Code Schematics	| Host code		  	|
+Radio Spectrum | ~ 50Mhz - 1.5 Ghz   | 30 MHz – 6 Ghz 	| 300 MHz – 3.8 GHz 	  | 50 MHz –2.2 GHz |
+Bandwidth      | 2.8 Mhz(max stable) | 20 MHZ		  	    | 28 MHZ 		 		        | 16 MHz 			    |
+Duplex         | Half (Rx only)      | Half		  		    | Full	 		 		        | Full				    |
+Sample Size    | 8 - bit             | 8-bit		  		  | 12-bit 		 		        | 12/14 12-bit 		|
+Sample Rate    | 2.4 MS/s            | 20Ms/s		  	    | 40 Msps 		 		      | 64/128 Msps		  |
+Interface      | USB 2.0             | USB 2.0		  	  | USB 3.0 		 		      | USB 2.0 			  |
+Good For       | FM, NOAA Satellites | GSM, A/NTSC      |                       | GSM             |
 
 
-The RTL-SDR is by far the cheapest board out there 
+The RTL-SDR is by far the cheapest board out there.
 
 
 
