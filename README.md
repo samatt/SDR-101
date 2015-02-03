@@ -25,25 +25,42 @@ Chips known as [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_arra
 
 
 ###What are the different boards out there?
-
  Specs         |RTL SDR        		| Hack RF      		| Blade RF     			|USRP (B100) 		|    
-:-----------   |:-----------   		| :----------- 		| :----------- 			| :-----------
+:-----------   |:-----------   		| :----------- 		| :----------- 			| :-----------		|
 Price		   | 20$        		| 320$		  		| 420$		 			|~ 600$		 		|
-Open Source	   | Center        		| Right		  		|						| dfds		  		|
+Open Source	   | 	        		| Everything		|HDL + Code Schematics	| Host code		  	|
 Radio Spectrum | ~ 50Mhz - 1.5 Ghz 	| 30 MHz – 6 Ghz 	| 300 MHz – 3.8 GHz 	| 50 MHz –2.2 GHz 	|
 Bandwidth      | 2.8 Mhz(max stable)| 20 MHZ		  	| 28 MHZ 		 		| 16 MHz 			|
 Duplex	       | Half (Rx only)     | Half		  		| Full	 		 		| Full				|
 Sample Size	   | 8 - bit        	| 8-bit		  		| 12-bit 		 		| 12/14 12-bit 		|
 Sample Rate	   | 2.4 MS/s        	| 20Ms/s		  	| 40 Msps 		 		| 64/128 Msps		|
 Interface	   | USB 2.0        	| USB 2.0		  	| USB 3.0 		 		| USB 2.0 			|
-	|
 
-##Resources
-[Towers Of Power materials](https://itp.nyu.edu/classes/towers-spring2014/readings-resources/)
 
-Towers of Powers is a course taught at ITP by the amazing [Benedetta Piantella](http://www.benedetta.cc/bio.html) that aims to teach students about GSM networks. How they work, their politics and how to use them in their projects. The link above has a lot of good material for anyone more interested in GSM.
+The RTL-SDR is by far the cheapest board out there 
 
+
+
+
+##GSM With SDRs
+
+Disclaimer: GSM is a licensed band and if you transmit and if you are caught transmitting at those frequencies the FCC will give you trouble. 
+
+Having said that there are a lot of projects out there that allow you to use SDRs  to create a standalone GSM network.
+
+The oldest and most well known is [openBTS](http://openbts.org/). 
+
+Others include [YateBTS](http://www.yatebts.com/) and [OsmoBTS]( http://openbsc.../wiki/OsmoBTS)
+
+For more information on the GSM aspect of SDRs I suggest looking through the materials for [Towers Of Power](https://itp.nyu.edu/classes/towers-spring2014/readings-resources/) a course taught at ITP by the amazing [Benedetta Piantella](http://www.benedetta.cc/bio.html) that aims to teach students about GSM networks. How they work, their politics and how to use them in projects. The link above has a lot of good material for anyone more interested in GSM.
+
+
+I also wrote a couple of tutorials on setting up gsm networks using Yates and Osmo with the Blade Rf and USRP1 respectively. Linked below
 
 [Setting up Blade RF with Yates BTS](https://github.com/samatt/ArtSec-SDR/blob/master/running_yate_bts_with_bladerf_on_ubuntu_14.04.md)
 
 [Setting up USRP1 with Osmobts](https://github.com/samatt/ArtSec-SDR/blob/master/running_osmobts_with_usrp1_ubuntu_12.04.md)
+
+I have **live images** for these if anyone is wants them let me know.	
+
+##Resources
