@@ -1,6 +1,6 @@
-#Artsec SDR Meetup
+#SDR 101
 
-
+****This repo was originally created for an ArtSec meetup on Software Defined Radios***
 ##Getting Started
 
 
