@@ -78,7 +78,7 @@ I have **live images** for these if anyone is wants them let me know.
 
 [SDR Tutorials](https://greatscottgadgets.com/sdr/) by Michael Ossmann 
 
-[SDR Book](http://people.scs.carleton.ca/~barbeau/SDRBook/Book/) for theoretical fundamentals
+[SDR Book](https://dl.dropboxusercontent.com/u/1108171/SDR_BOOK.zip) for theoretical fundamentals
 
 
 ##References
