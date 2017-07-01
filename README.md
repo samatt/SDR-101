@@ -1,10 +1,12 @@
-#SDR 101
+# SDR 101
+
 
 ****This repo was originally created for an ArtSec meetup on Software Defined Radios***
+
 ##Getting Started
 
 
-###What are Software Defined Radios?
+### What are Software Defined Radios?
 
 Currently most radios you can buy off-the-shelf are designed to do one thing. Like Bluetooth, or Wi-Fi or GSM. However Software Defined Radios allow you to use the same hardware to "program different radio architectures". The analogy I like to use is that current radi chipsets are like calculators and software defined radios are computers.
 
@@ -13,7 +15,7 @@ Currently most radios you can buy off-the-shelf are designed to do one thing. Li
 
 
 
-###What makes them special?
+### What makes them special?
 
 In case you're wondering what makes this possible, its the falling price of hardware. 
 
@@ -24,7 +26,8 @@ Powerful microcontrollers that run the board and program the FPGAs are pretty ch
 Chips known as [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array)s and [CPLDs](https://en.wikipedia.org/wiki/Complex_programmable_logic_device) are basically integrated circuit breadboards that you can program to be whatever you want. These are the boards hardware manufactures use when they are desinging new integrated circuits and have traditionally been frightfully expensive. 
 
 
-###What are the different boards out there?
+### What are the different boards out there?
+
  Specs         |RTL SDR        		| Hack RF      		| Blade RF     			|USRP (B100) 		|    
 :-----------   |:-----------   		| :----------- 		| :----------- 			| :-----------		|
 Price		   | 20$        		| 320$		  		| 420$		 			|~ 600$		 		|
@@ -44,7 +47,7 @@ The RTL-SDR is by far the cheapest board out there
 
 
 
-##Art Hack Day TV
+## Art Hack Day TV
 
 For Art Hack Day Jonathan Dahan and I set up a small television broadcast station. We used the Hack RF and modified code we found online to broadcast a slide show of images from the Hack RF to UHF Channel 9
 
@@ -53,7 +56,7 @@ Code from that project is available [here](https://github.com/samatt/WAHD-TV.git
 
 ![](https://dl.dropboxusercontent.com/u/1108171/IMG_3132.jpg) 
 
-##GSM With SDRs
+## GSM With SDRs
 
 Disclaimer: GSM is a licensed band and if you transmit and are caught transmitting the FCC will give you trouble. 
 
@@ -74,14 +77,14 @@ I also wrote a couple of tutorials on setting up gsm networks using Yates and Os
 
 I have **live images** for these if anyone is wants them let me know.	
 
-##Resources
+## Resources
 
 [SDR Tutorials](https://greatscottgadgets.com/sdr/) by Michael Ossmann 
 
 [SDR Book](https://dl.dropboxusercontent.com/u/1108171/SDR_BOOK.zip) for theoretical fundamentals
 
 
-##References
+## References
 [OpenMHz](openmhz.com)
 [Receiving HRPT Weather Satellite](http://www.rtl-sdr.com/hackrf-receiving-hrpt-weather-satellite-images/)
 
